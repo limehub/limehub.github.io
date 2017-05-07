@@ -1,0 +1,56 @@
+body {
+  padding-top: 50px;
+}
+
+.header {
+  padding: 150px 0 120px 0;
+  color: white;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(17, 86, 81, 1);
+  padding: 15px 25px 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+  transition: 0.5s all;
+}
+
+.card:hover {
+  background-color: #00bfa5;
+  cursor: pointer;
+}
+
+.card h3 {
+  display: inline-block;
+}
+
+.card i {
+  display: inline-block;
+  font-size: 3em;
+  margin-right: 15px;
+}
+
+.header h1 {
+  text-align: center;
+
+
+  font-size: 48px;
+}
+
+.header img {
+  margin: 0 auto;
+}
+
+.header p {
+  font-size: 20px;
+}
